@@ -1,0 +1,47 @@
+html,
+body{
+    margin: 0px;
+}
+
+header {
+    background-color: aqua;
+    height: 15vh ;
+    border: 1px solid black;
+    
+}
+
+#corpo {
+    background-color: darkgrey;
+    height: 75vh;
+    text-align: center;
+    border: 0px solid black;
+}
+
+footer {
+    background-color: greenyellow;
+    height: 10vh;
+    border: 1px solid black;
+}
+.menuPrincipal {
+    float: left;
+    font-size: 22px;
+    padding-left: '2vw';
+    transition: 0.2s;
+
+}
+.menuPrincipal ul il{
+    display: inline;
+    padding-left: 2vw;
+
+}
+.menuPrincipal ul il a{
+    color:blue
+
+}
+
+.menuPrincipal ul il a:houver{
+    color:red;
+    font-size: 22px;
+    text-decoration: none;
+
+}
